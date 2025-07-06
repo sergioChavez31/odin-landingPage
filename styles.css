@@ -73,7 +73,7 @@ body {
     text-decoration: none;
     color: white;
     padding: 6px 32px;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 .hero-img {
     border: 4px double #7b4707;
@@ -144,4 +144,32 @@ body {
     text-align: right;
     font-weight: bold;
     font-size: 18px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #3882f6;
+    color: white;
+    width: 950px;
+    padding: 48px 64px;
+    border-radius: 8px;
+    margin: 64px 0;
+}
+
+.signup-box a {
+    border-radius: 8px;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    padding: 6px 32px;
+    border-radius: 8px;
 }
