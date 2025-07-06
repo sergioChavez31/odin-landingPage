@@ -119,3 +119,29 @@ body {
     border: 4px solid #3882f6;
     border-radius: 12px;
 }
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.quote-box {
+    width: 775px;
+    margin: 64px 0;
+}
+
+.quote-box .blockquote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-box p {
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+}
